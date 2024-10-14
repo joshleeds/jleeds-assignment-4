@@ -31,7 +31,7 @@ run:
 	FRONTEND_PID=$$!; \
 	sleep 5; \
 	for i in {1..10}; do \
-		if curl -s http://127.0.0.1:5000/; then \
+		if curl -s http://127.0.0.1:5001/; then \
 			echo "Flask app is running"; \
 			break; \
 		fi; \
